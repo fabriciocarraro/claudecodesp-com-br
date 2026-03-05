@@ -8,6 +8,8 @@ interface SiteFooterProps {
 export function SiteFooter({ items }: SiteFooterProps) {
   const year = new Date().getFullYear();
   const aluraLogoSrc = `${import.meta.env.BASE_URL}images/alura-logo.svg`;
+  const whatsappGroupUrl =
+    "https://chat.whatsapp.com/EfVfBSX78VP15KtSkNMbgm?mode=gi_t";
 
   return (
     <footer className="site-footer">
@@ -31,6 +33,11 @@ export function SiteFooter({ items }: SiteFooterProps) {
                 <a href={`#${item.id}`}>{item.label}</a>
               </li>
             ))}
+            <li>
+              <a href={whatsappGroupUrl} target="_blank" rel="noreferrer">
+                Entrar no grupo de Whatsapp
+              </a>
+            </li>
           </ul>
         </div>
         <div>

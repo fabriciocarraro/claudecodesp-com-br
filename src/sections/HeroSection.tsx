@@ -20,7 +20,15 @@ export function HeroSection() {
               Ver agenda
             </a>
             <a className="btn btn-ghost" href="#contato">
-              Quero palestrar
+              QUero ser speaker
+            </a>
+            <a
+              className="btn btn-ghost"
+              href="https://chat.whatsapp.com/EfVfBSX78VP15KtSkNMbgm?mode=gi_t"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Entrar no grupo de Whatsapp
             </a>
           </div>
         </div>

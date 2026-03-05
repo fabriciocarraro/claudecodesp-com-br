@@ -6,14 +6,10 @@ export function HeroSection() {
       <div className="shell hero-grid">
         <div className="hero-copy reveal">
           <p className="eyebrow">Comunidade de builders em São Paulo</p>
-          <h1>Builders SP: Claude Code</h1>
+          <h1>Builders SP:<br />Claude Code</h1>
           <p className="hero-lead">
-            O maior evento para pessoas que constroem projetos, protótipos e
-            soluções reais usando Claude Code da Anthropic.
-          </p>
-          <p>
-            Encontros práticos para experimentar, trocar arquitetura, testar
-            ideias e acelerar a entrega de produtos.
+            O maior evento para pessoas que constroem projetos, produtos
+            e soluções reais usando ferramentas modernas de Inteligência Artificial.
           </p>
           <div className="hero-actions">
             <a className="btn btn-primary" href="#agenda">
@@ -37,7 +33,7 @@ export function HeroSection() {
           <img
             className="hero-brand-image"
             src={heroImageSrc}
-            alt="Arte do Claude Code para a identidade visual do evento"
+            alt="Arte do Builders SP para a identidade visual do evento"
           />
         </aside>
       </div>

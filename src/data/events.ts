@@ -10,7 +10,7 @@ export const events: EventItem[] = [
     location: "São Paulo - local a confirmar",
     speaker: "Painel com builders convidados",
     description:
-      "Abertura oficial da comunidade com demos curtas e networking entre pessoas que constroem com Claude Code.",
+      "Abertura oficial da comunidade com demos curtas e networking entre pessoas que constroem com o Claude Code.",
     status: "Inscrições abertas",
   },
 ];

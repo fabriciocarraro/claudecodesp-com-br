@@ -1,6 +1,6 @@
-# Builders SP: Claude Code
+# Builders SP
 
-Landing page oficial do Builders SP: Claude Code, feita com React + Vite.
+Landing page oficial do Builders SP, feita com React + Vite.
 
 ## Scripts
 

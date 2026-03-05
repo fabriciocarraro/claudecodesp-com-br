@@ -5,7 +5,7 @@ const pillars = [
   {
     title: "Para quem é",
     description:
-      "Builders, devs, PMs, founders e pessoas curiosas em criar com Claude Code no mundo real.",
+      "Builders, devs, PMs, founders e pessoas curiosas em criar produtos no mundo real.",
   },
   {
     title: "Como funciona",
@@ -26,7 +26,7 @@ export function AboutSection() {
         <SectionHeader
           eyebrow="Sobre"
           title="Um ponto de encontro para construir com qualidade"
-          description="Builders SP: Claude Code organiza encontros recorrentes para quem quer transformar experimentação em produtos e protótipos consistentes."
+          description="A  Builders SP organiza encontros recorrentes para quem quer transformar experimentação em produtos e protótipos consistentes."
         />
         <div className="feature-grid">
           {pillars.map((pillar, index) => (

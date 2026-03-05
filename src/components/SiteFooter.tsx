@@ -14,10 +14,10 @@ export function SiteFooter({ items }: SiteFooterProps) {
     <footer className="site-footer">
       <div className="shell footer-shell">
         <div>
-          <p className="footer-title">Builders SP: Claude Code</p>
+          <p className="footer-title">Builders SP</p>
           <p>
             Comunidade de builders em São Paulo para projetos, protótipos e
-            soluções com Claude Code.
+            soluções reais usando ferramentas modernas de Inteligência Artificial.
           </p>
           <div className="footer-offering" aria-label="Oferecimento">
             <span className="footer-offering-label">Oferecimento:</span>
@@ -43,7 +43,7 @@ export function SiteFooter({ items }: SiteFooterProps) {
         </div>
       </div>
       <p className="footer-legal">
-        © {year} Builders SP: Claude Code. Todos os direitos reservados.
+        © {year} Builders SP. Todos os direitos reservados.
       </p>
     </footer>
   );
